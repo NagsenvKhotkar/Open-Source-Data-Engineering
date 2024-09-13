@@ -1,4 +1,4 @@
-= Awesome Open-Source Data Engineering
+## Awesome Open-Source Data Engineering
 :toc:
 :toc-placement!:
 
@@ -8,7 +8,7 @@ For a list including non-OSS tools, see this amazing https://github.com/igorbari
 
 toc::[]
 
-== Analytics
+##Analytics
 
 * https://spark.apache.org/[Apache Spark] - A unified analytics engine for large-scale data processing. Includes APIs in Scala, Java, Python (known as PySpark), and R (SparkR). 
 * https://beam.apache.org/[Apache Beam] - An open-source implementation of Google DataFlow. Provides capabilites of batch and streaming data processing jobs that run on any execution engine, including Spark, Flink, or its own DirectRunner. Supports multiple APIs in Java, Python, and Go. 
