@@ -108,9 +108,90 @@ For a list including non-OSS tools, see this amazing [Awesome List](https://gith
 - [Logstash](https://www.elastic.co/logstash) - Open Source server-side data processing pipeline.
 - [Telegraf](https://github.com/influxdata/telegraf) - A plugin-driven server agent written in Go for collecting and sending metrics and events from databases, systems, and IoT sensors. Offers hundreds of existing plugins.
 
+# Messaging and Data Engineering Tools
+
+This repository offers a curated list of notable tools and technologies across various domains, including messaging infrastructure, stream processing, testing, monitoring, versioning, and workflow management. Whether you're building data pipelines, managing message queues, or handling large-scale data processing, this guide aims to help you find the right tools for your needs.
+
+## Table of Contents
+
+- [Messaging Infrastructure](#messaging-infrastructure)
+- [Specifications and Standards](#specifications-and-standards)
+- [Stream Processing](#stream-processing)
+- [Testing](#testing)
+- [Monitoring and Logging](#monitoring-and-logging)
+- [Versioning](#versioning)
+- [Workflow Management](#workflow-management)
+- [Related Resources](#related-resources)
+- [License](#license)
+
 ## Messaging Infrastructure
 
-- [Apache ActiveMQ](https://activemq.apache.org/) - Flexible & Powerful Multi-Protocol Messaging.
-- [Apache Kafka](https://kafka.apache.org/) - A distributed commit log with messaging capabilities.
-- [Apache Pulsar](https://pulsar.apache.org/) - A distributed pub-sub messaging system.
-- [Liiklus](http://github.com/bsideup/liiklus) - An
+- **[Apache ActiveMQ](https://activemq.apache.org/)** - Flexible & Powerful Multi-Protocol Messaging.
+- **[Apache Kafka](https://kafka.apache.org/)** - A distributed commit log with messaging capabilities.
+- **[Apache Pulsar](https://pulsar.apache.org/)** - A distributed pub-sub messaging system.
+- **[Liiklus](http://github.com/bsideup/liiklus)** - An event gateway that provides reactive gRPC/RSocket access to Kafka-like systems.
+- **[Nakadi](https://nakadi.io/)** - A distributed event bus that implements a RESTful API abstraction on top of Kafka-like queues.
+- **[NATS](https://nats.io/)** - A simple, secure, and high-performance messaging system.
+- **[RabbitMQ](https://www.rabbitmq.com/)** - A message broker.
+- **[Waltz](https://github.com/wepay/waltz)** - A quorum-based distributed write-ahead log for replicating transactions.
+- **[ZeroMQ](https://zeromq.org/)** - An open-source universal, high-performance messaging library.
+
+## Specifications and Standards
+
+- **[CloudEvents](https://cloudevents.io/)** - A specification for describing event data in a common way.
+
+## Stream Processing
+
+- **[Apache Kafka Streams](https://kafka.apache.org/documentation/streams/)** - A client library for building applications and microservices, where the input and output data are stored in Kafka.
+- **[Apache Samza](http://samza.apache.org/)** - A distributed stream processing framework.
+- **[Apache Spark Structured Streaming](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)** - A scalable and fault-tolerant stream processing engine built on the Spark SQL engine.
+- **[Apache Storm](http://storm.apache.org/)** - A distributed real-time computation system.
+
+## Testing
+
+- **[Great Expectations](https://greatexpectations.io/)** - Helps data teams eliminate pipeline debt through data testing.
+- **[DataKitchen Data Observability](https://github.com/DataKitchen/data-observability-installer/)** - A full-featured data quality profiling and data testing tool that automatically generates tests for you.
+
+## Monitoring and Logging
+
+- **[Prometheus](https://prometheus.io/)** - An open-source systems monitoring and alerting toolkit.
+- **[Grafana](https://grafana.com/)** - An open-source analytics and monitoring platform.
+- **[DataKitchen Data Observability](https://github.com/DataKitchen/data-observability-installer/)** - A full-featured monitoring and alerting software that watches across and down your data estate.
+
+## Versioning
+
+- **[lakeFS](https://github.com/treeverse/lakeFS/)** - Repeatable, atomic, and versioned data lake on top of object storage.
+
+## Workflow Management
+
+- **[Awesome Workflow Engines](https://github.com/meirwah/awesome-workflow-engines)** - A curated list of awesome open-source workflow engines.
+- **[Apache Airflow](https://airflow.apache.org/)** - A platform created by the community to programmatically author, schedule, and monitor workflows.
+- **[Apache NiFi](https://nifi.apache.org/)** - Supports powerful and scalable directed graphs of data routing, transformation, and system mediation logic.
+- **[KNIME](https://github.com/knime/)** - KNIME Analytics Platform offers a WYSIWYG Editor for Spark-based workflows, with over 2000+ integrations. Offers visualization and flow analytics in-place. KNIME Server is a commercially licensed component that adds additional features.
+- **[Prefect](https://github.com/PrefectHQ/prefect/)** - A workflow management system designed for modern infrastructure.
+- **[Dagster](https://github.com/dagster-io/dagster/)** - A data orchestrator for machine learning, analytics, and ETL.
+- **[Kestra](https://github.com/kestra-io/kestra)** - Open-source data orchestration and scheduling platform with declarative syntax.
+- **[Mage](https://github.com/mage-ai/mage-ai)** - Open-source data orchestration and scheduling platform with a rich interactive UI for workflows.
+
+## Related Resources
+
+### Slide Decks, Recordings, and Podcasts
+
+- [Data Engineering Podcast](https://www.dataengineeringpodcast.com/)
+- [Software Engineering Daily](https://softwareengineeringdaily.com/)
+- [Data Stack Show](https://datastackshow.com/)
+
+### Blog Posts and Articles
+
+- [Data Eng Weekly](https://dataengweekly.substack.com/)
+
+### Collections
+
+- [NOSQL Database Management Systems](https://nosql-database.org/) - List of NoSQL database management systems.
+- [DB-Engines](https://db-engines.com/en/) - Knowledge base of relational and NoSQL database management systems.
+- [Books and Book Club](https://www.goodreads.com/list/show/146550.Data_Engineering_Group) - Goodreads list and group about Data Engineering books.
+- [25 Free Data Books](https://www.kdnuggets.com/25-free-books-to-master-sql-python-data-science-machine-learning-and-natural-language-processing) - Collection of 25 free e-books related to SQL, Python, Data Science, Machine Learning, and Natural Language Processing.
+
+## License
+
+The contents of this repository are licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
